@@ -124,7 +124,7 @@ flex-direction: row;
 }
 main > img {
 grid-area: img;
-}
+} 
 #name {
   width: 300px;
   background-color:rgb(206, 206, 206) ;
