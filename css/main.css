@@ -43,6 +43,7 @@ main > img {
   border-radius: 60px;
   border: green solid;
   background-color: whitesmoke;
+  margin-top: 15px;
   
 }
 #name{
@@ -106,7 +107,7 @@ flex-direction: row;
 
 @media only screen and (min-width: 600px) {
   main{
-  text-align: left;
+    text-align: left;
    display: grid;
    width:500px;
    height: 260px;
@@ -124,8 +125,14 @@ flex-direction: row;
 }
 main > img {
 grid-area: img;
+margin-left: 20px;
+margin-bottom: 30px;
+margin-top: 0px;
 } 
 #name {
+  display: flex;
+  padding-left: 10px;
+  justify-content: left;
   width: 300px;
   background-color:rgb(206, 206, 206) ;
 }
@@ -138,10 +145,22 @@ grid-area: img;
 border-left: green 4px solid;
 padding: 6px;
 }
+
 #offer{
+  display: flex;
+  padding-left: 10px;
+  justify-content: left;
   width: 300px;
   height: 70px;
   background-color:rgb(206, 206, 206) ;
+}
+#offer :first-child{
+  padding-right: 100px;
+
+}
+#offer >p:last-child{
+  padding-right: 200px;
+
 }
 
 #contact{
